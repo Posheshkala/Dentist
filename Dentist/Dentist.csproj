@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Title>یک نرم افزار کاربردی برای نوبت دهی در مطب دندانپزشکان</Title>
+    <Authors>علی خسروانی</Authors>
+    <Company>P3Soft</Company>
+    <Description>به کمک این نرم افزار می توانید برای نوبت دهی به مشتریان استفاده کنید .همچنین برای اطلاع رساانی از این برنامه می توانید به آنها از طریق پیامک اطلاع رسانی کنید.</Description>
+    <Copyright>کلیه حقوق برای مولف محفوظ است.&amp;copy </Copyright>
+    <NeutralLanguage>fa-IR</NeutralLanguage>
+    <StartupObject>Dentist.Program</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="PublicClass">
+      <HintPath>..\..\..\PublicClass\PublicClass\PublicClass\bin\Release\PublicClass.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
